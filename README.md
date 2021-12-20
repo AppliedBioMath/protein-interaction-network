@@ -6,7 +6,7 @@ a.Signor3.0 https://signor.uniroma2.it/downloads.php?beta=3.0: genes directed in
 b.Gene expression data from the TCGA (SKCM) vs. normal
   file "ras_t&g.tsv" is output from running differential gene expression analysis 
 2. Network element
-a.Node: nodes are the significant genes based on the gene expression data with the cutoff for driven genes. The color of node represents the logFC number of the genes.
+a.Node: nodes are the significant genes based on the gene expression data with the logFC cutoff. The color of node represents the logFC of the genes.
 b.Edge: length and width of edges represents the confidence score of the directed interactions. The color of the edge represents the interaction mechanism of this interaction
   where red edge for activation effect while navy edge for inhibition effect.
   Default cutoff for the confidence score of interaction is 0.5.
